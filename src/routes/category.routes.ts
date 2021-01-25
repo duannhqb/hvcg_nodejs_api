@@ -1,6 +1,7 @@
 import express, { Router } from 'express';
 import categoryController from '../controllers/category.controllers';
 
+// category
 class CategoryRoute {
     public router: Router = Router();
     constructor(){
